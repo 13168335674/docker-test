@@ -1,4 +1,4 @@
-FROM node:latest AS builder
+FROM node AS builder
 
 WORKDIR /app
 
@@ -6,7 +6,7 @@ COPY . /app
 
 RUN npm config set registry https://registry.npm.taobao.org && npm install  && npm run build
 
-FROM nginx:latest
+FROM nginx
 
 COPY --from=builder app/dist /usr/share/nginx/html/
 
