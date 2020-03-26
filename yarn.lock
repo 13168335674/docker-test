@@ -998,9 +998,9 @@
   resolved "https://registry.npm.taobao.org/@vue/cli-plugin-vuex/download/@vue/cli-plugin-vuex-4.2.3.tgz#aa1d8e824dd82b8718c0c40e3906c34ccd752516"
   integrity sha1-qh2Ogk3YK4cYwMQOOQbDTM11JRY=
 
-"@vue/cli-service@~4.2.0":
+"@vue/cli-service@^4.2.3":
   version "4.2.3"
-  resolved "https://registry.npm.taobao.org/@vue/cli-service/download/@vue/cli-service-4.2.3.tgz#aabb8edfea5dbb59df5b42464f876158b43dd065"
+  resolved "https://registry.npm.taobao.org/@vue/cli-service/download/@vue/cli-service-4.2.3.tgz?cache=0&sync_timestamp=1582814210405&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40vue%2Fcli-service%2Fdownload%2F%40vue%2Fcli-service-4.2.3.tgz#aabb8edfea5dbb59df5b42464f876158b43dd065"
   integrity sha1-qruO3+pdu1nfW0JGT4dhWLQ90GU=
   dependencies:
     "@intervolga/optimize-cssnano-plugin" "^1.0.5"
